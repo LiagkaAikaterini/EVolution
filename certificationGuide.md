@@ -13,26 +13,23 @@ To enable HTTPS for both the **backend** (`REST_API`) and **frontend** (`react-c
    ```
 
 2. **Install Dependencies:** After Homebrew is installed, follow the on-screen instructions to ensure the echo and install dependencies commands are executed successfully.
-     ```bash
-      /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-      ```
 3. **Install mkcert:**
-  ```bash
-   brew install mkcert
-   ```
+     ```bash
+      brew install mkcert
+      ```
 4. **Install NSS:**
-  ```bash
-   brew install nss
-   ```
+     ```bash
+      brew install nss
+      ```
 5. **Create Local Certificates:** This command installs mkcert and prepares your system for local certificates.
-  ```bash
-   mkcert -install
-   ```
+     ```bash
+      mkcert -install
+      ```
 6. **Create Certificate Directory:** Make a new directory named .cert where the certificates will be stored.
-  ```bash
-   mkdir -p .cert
-   ```
+     ```bash
+      mkdir -p .cert
+      ```
 7. **Generate Certificates:** Finally, run the command below to create your SSL certificate and key for localhost.
-  ```bash
-   mkcert -key-file ./.cert/key.pem -cert-file ./.cert/cert.pem "localhost"
-   ```
+     ```bash
+      mkcert -key-file ./.cert/key.pem -cert-file ./.cert/cert.pem "localhost"
+      ```
