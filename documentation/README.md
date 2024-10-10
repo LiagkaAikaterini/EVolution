@@ -1,12 +1,12 @@
 # Documentation
 
-Ενδεικτικά περιεχόμενα:
+Indicative Table of Contents:
 
-- Διαγράμματα UML Activity (in ONE vpp file).
-- Διαγράμματα UML Class (in ONE vpp file).
-- Διαγράμματα UML Component (in ONE vpp file).
-- Διαγράμματα UML Deployment (in ONE vpp file).
-- Διαγράμματα UML Sequence (in ONE vpp file).
-- Διαγράμματα ER.
-- Εγγραφο SRS - Software Requirements Specification.
-- Εγγραφο StRS - Stakeholders Requirements Specification.
+- UML Activity diagrams (in ONE vpp file).
+- UML Class diagrams (in ONE vpp file).
+- UML Component diagrams (in ONE vpp file).
+- UML Deployment diagrams (in ONE vpp file).
+- UML Sequence diagrams (in ONE vpp file).
+- ER diagrams.
+- SRS File - Software Requirements Specification.
+- StRS File - Stakeholders Requirements Specification.
