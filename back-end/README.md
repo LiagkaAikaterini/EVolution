@@ -1,5 +1,6 @@
 # Back-end
 
-Ο φάκελος του back-end περιέχει:
-* Database Files: περιέχουν τα αρχεία για την δημιουργία της βάσης και την παραγωγή των κατάλληλων δεδομένων
-* REST_API: αποτελεί την υλοποιήση του back-end 
+The back-end folder contains:
+
+- **Database Files:** These contain the files for creating the database and generating the appropriate data.
+- **REST_API:** This is the implementation of the back-end.
