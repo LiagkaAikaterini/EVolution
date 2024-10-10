@@ -34,7 +34,7 @@ https://user-images.githubusercontent.com/63066416/137513209-474f8c5e-f07b-4158-
 * CSS
 * HTML
 
-## Setup
+## Configuration and Setup
 To install and run the software, follow these steps:
 
 1. **Clone this GitHub Repository** using the command:
@@ -43,7 +43,7 @@ To install and run the software, follow these steps:
    ```
 2. **Import the Database:** Load the data from the [Database Files](back-end/Database Files) folder into a relational database of your choice.
 3. **Configure the Database Connection:** Modify the [db.config.js](back-end/REST_API/config/db.config.js) file by adding your own database credentials for establishing the connection.
-4. **Set Up a Secure Environment:** Follow the instructions in the [certificationGuide.txt](certificationGuide.txt) to create a secure environment before launching the application.
+4. **Set Up a Secure Environment:** Follow the instructions in the [certificationGuide](certificationGuide.md) to create a secure environment before launching the application.
 5. **Install Dependencies:** Inside both the `back-end/REST_API` and `front-end/react_code` directories run the command:
    ```bash
    npm install
