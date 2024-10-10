@@ -1,6 +1,6 @@
 # Documentation
 
-Indicative Table of Contents:
+## Indicative Table of Contents:
 
 - UML Activity diagrams (in ONE vpp file).
 - UML Class diagrams (in ONE vpp file).
