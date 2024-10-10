@@ -1,10 +1,22 @@
 # CLI-client
 
-Για να τρέξει ο client χρησιμοποιούμε την εντολή python3 evgroup_38 scope --params
+## CLI Commands
+To run the client, use the command:
+```bash
+python3 evgroup_38 scope --params
+```
 
-Με την εντολή python3 evgroup_38 --help φαίνονται όλες τα διαθέσιμα scopes, ενώ εάν θέλουμε να δούμε αναλυτικά τις διαθέσιμες παραμέτρους ενός scope χρησιμοποιείται η εντολή python3 evgroup_38 scope --help
+The following command displays all available scopes: 
+```bash
+python3 evgroup_38 --help
+```
+to see detailed information about the parameters of a specific `<scope>`, use the command:
+```bash
+python3 evgroup_38 <scope> --help
+```
 
-Οι διαθέσιμες εντολές είναι:
+
+The available commands are:
 
     python3 evgroup_38 healthcheck
     python3 evgroup_38 resetsessions
@@ -21,13 +33,15 @@
     python3 evgroup_38 Admin --healthcheck
     python3 evgroup_38 Admin --resetsessions
 
-Για το Unit Testing εκτελούμε μέσα στον φάκελο (directory) CLI_unit_tests την εντολή:
+**Note**: For the command `python3 evgroup_38 Admin --sessionsupd --source <csv_file_name>`, the CSV file must be located within the directory the CLI is running.
 
+## Unit Testing
+For Unit Testing, run the following command within the `CLI_unit_tests` directory:
+```bash
 python3 -m unittest -v test_unit_cli
-
-Για το Functional Testing εκτελούμε μέσα στον φάκελο (directory) CLI_functional_tests την εντολή:
-
+```
+## Functional Testing
+For Functional Testing, run the following command within the `CLI_functional_tests` directory:
+```bash
 py.test -v test_functional_cli.py
-
-
-Υποσημείωση: Για την εντολή python3 evgroup_38 Admin --sessionsupd --source <csv_file_name> το αρχείο csv θα πρέπει να βρίσκεται στο directory που τρέχει το cli 
+```
