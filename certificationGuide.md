@@ -13,9 +13,9 @@ To enable HTTPS for both the **backend** (`REST_API`) and **frontend** (`react-c
    ```
 
 2. **Install Dependencies:** After Homebrew is installed, follow the on-screen instructions to ensure the echo and install dependencies commands are executed successfully.
-  ```bash
-   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-   ```
+     ```bash
+      /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+      ```
 3. **Install mkcert:**
   ```bash
    brew install mkcert
