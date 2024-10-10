@@ -1,5 +1,6 @@
 # Front-end
 
-Οι φάκελοι που περιέχονται είναι οι εξής:
-* .cert: αποτελεί το self signed certificate μας
-* react_code: αποτελέι την υλοποίση του front-end
+The front-end folder contains:
+
+- **.cert:** Contains our self-signed certificate.
+- **react_code**: This is the implementation of the front-end.
