@@ -43,13 +43,16 @@ To install and run the software, follow these steps:
    ```
 2. **Import the Database:** Load the data from the [Database Files](back-end/Database%20Files) folder into a relational database of your choice.
 3. **Configure the Database Connection:** Modify the [db.config.js](back-end/REST_API/config/db.config.js) file by adding your own database credentials for establishing the connection.
-4. **Set Up a Secure Environment:** Follow the instructions in the [certificationGuide](certificationGuide.md) to create a secure environment before launching the application.
-5. **Install Dependencies:** Inside both the `back-end/REST_API` and `front-end/react_code` directories run the command:
+4. **Set Up a Secure `HTTPS` Environment:** Follow the instructions in the [certificationGuide](certificationGuide.md) to create a secure environment before launching the application.
+5. **Install Dependencies:** Run the command inside both the `back-end/REST_API` and `front-end/react_code` directories:
    ```bash
    npm install
    ```
-6. **Start the Application:** After the dependencies are installed, use the command npm start in both of these directories to start the backend and frontend services.
-7. **CLI and Testing:** For command-line interface (CLI) operations and testing, follow the [instructions](cli-client/README.md) provided.
+6. **Start the Application:** After the dependencies are installed, use the following command in both `back-end/REST_API` and `front-end/react_code` directories to start the backend and frontend services:
+   ```bash
+   npm start
+   ```
+8. **CLI and Testing:** For command-line interface (CLI) operations and testing, follow the [instructions](cli-client/README.md) provided.
 
 
 ## Our Team
