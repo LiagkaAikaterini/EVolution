@@ -41,7 +41,7 @@ To install and run the software, follow these steps:
    ```bash
    git clone https://github.com/LiagkaAikaterini/EVolution.git
    ```
-2. **Import the Database:** Load the data from the [Database Files](back-end/Database Files) folder into a relational database of your choice.
+2. **Import the Database:** Load the data from the [Database Files](back-end/Database%20Files) folder into a relational database of your choice.
 3. **Configure the Database Connection:** Modify the [db.config.js](back-end/REST_API/config/db.config.js) file by adding your own database credentials for establishing the connection.
 4. **Set Up a Secure Environment:** Follow the instructions in the [certificationGuide](certificationGuide.md) to create a secure environment before launching the application.
 5. **Install Dependencies:** Inside both the `back-end/REST_API` and `front-end/react_code` directories run the command:
